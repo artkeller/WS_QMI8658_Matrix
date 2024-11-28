@@ -36,7 +36,7 @@ enum WS_QMI8658_RETURN_CODE {
   WS_QMI8658_ERR
 };
 
-// ESP32S3 Matrix
+// Board: ESP32S3 Matrix
 #define I2C_SDA 11
 #define I2C_SCL 12
 
