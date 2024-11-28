@@ -1,15 +1,15 @@
 # WS_QMI8658_Matrix
 
-Die WS_QMI8658-Bibliothek dient der einfachen Integration des QMI8658 IMU-Sensors in Arduino-Projekte. Sie ermöglicht präzise Bewegungs- und Lageerkennung mit Kalibrierungsunterstützung, Doppel-Reset-Erkennung und Hysterese-Logik zur Vermeidung instabiler Zustandswechsel.
+The WS_QMI8658 library is used to easily integrate the QMI8658 IMU sensor into Arduino projects. It enables precise motion and position detection with calibration support, double reset detection and hysteresis logic to avoid unstable state changes.
 
-Funktionen umfassen:
+Functions include:
 
-* Initialisierung und Konfiguration des QMI8658-Sensors
-* Kalibrierung und Speicherung der Kalibrierungsdaten in NVS
-* Erkennung der nach unten gerichteten Seite des Boards
-* Nutzung einer Hysterese-Logik zur Stabilisierung von Sensordaten
+* Initialisation and configuration of the QMI8658 sensor
+* Calibration and storage of calibration data in NVS
+* Detection of the downward-facing side of the board
+* Use of hysteresis logic to stabilise sensor data
 
-Ideal für Anwendungen in Robotik, Gaming und IoT, bei denen Bewegungs- und Lageerkennung eine Rolle spielen. 
+Ideal for applications in robotics, gaming and IoT where motion and position detection play a role
 
-Getestet auf Waveshare ESP32 S3 Matrix Board https://www.waveshare.com/wiki/ESP32-S3-Matrix 
+Tested on Waveshare ESP32 S3 Matrix Board https://www.waveshare.com/wiki/ESP32-S3-Matrix
 
