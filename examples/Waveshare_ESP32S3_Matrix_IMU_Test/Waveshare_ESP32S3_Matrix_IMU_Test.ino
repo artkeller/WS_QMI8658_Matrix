@@ -13,9 +13,6 @@ void setup() {
     Serial.printf("Board: %s\n", ARDUINO_FQBN);
 #endif
 
-  Serial.printf("WS_QMI8658 IMU Test %s", ARDUINO_FQBN);
-  Serial.println();
-
   if (imu.begin() == WS_QMI8658_ERR) {
     Serial.println("IMU not initialized - STOP");
     while (1) {}
