@@ -5,12 +5,21 @@
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
-imu	KEYWORD1
+imu			KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-begin	KEYWORD2
+begin			KEYWORD2
+detectDoubleReset	KEYWORD2
+calibrateBoard		KEYWORD2
+getDownwardFacingSide	KEYWORD2
+update			KEYWORD2
+sideToString		KEYWORD2
+
+loadCalibrationData	KEYWORD2
+saveCalibrationData	KEYWORD2
+resetCalibrationData	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
