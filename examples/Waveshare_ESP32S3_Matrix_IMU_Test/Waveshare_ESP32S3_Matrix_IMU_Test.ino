@@ -1,6 +1,7 @@
 #include "WS_QMI8658.h"
 
-WS_QMI8658 imu{};  // default I2C-pins on Waveshare ESP32S3 Matrix
+WS_QMI8658 imu{};         // default I2C-pins on Waveshare ESP32S3 Matrix
+//WS_QMI8658 imu(11,12);  // myOwn I2C-pins 
 
 void setup() {
   Serial.begin(115200);
