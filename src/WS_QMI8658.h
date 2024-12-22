@@ -8,23 +8,13 @@
 #ifndef WS_QMI8658_H
 #define WS_QMI8658_H
 
-#ifndef WS_QMI8658_VERSION
-  #define WS_QMI8658_VERSION            "Waveshare QMI8658 v0.1.4"
-
-  #define WS_QMI8658_VERSION_MAJOR      0
-  #define WS_QMI8658_VERSION_MINOR      1
-  #define WS_QMI8658_VERSION_PATCH      4
-
-  #define WS_QMI8658_VERSION_INT        0001004
-
-#endif
-
 #include <Arduino.h>
+#include "WS_QMI8658_Version.h" // Version ausgelagert
 #include <elapsedMillis.h>
 #include <Wire.h>
-#include <SensorLib.h>        // SensorLib: https://github.com/lewisxhe/SensorLib/blob/master/src/SensorLib.h
-#include <SensorQMI8658.hpp>  // SensorLib driver for QMI8658: https://github.com/lewisxhe/SensorLib/blob/master/src/SensorQMI8658.hpp
-                              // Equv BMI160: https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi160-ds000.pdf
+#include <SensorLib.h>          // SensorLib: https://github.com/lewisxhe/SensorLib/blob/master/src/SensorLib.h
+#include <SensorQMI8658.hpp>    // SensorLib driver for QMI8658: https://github.com/lewisxhe/SensorLib/blob/master/src/SensorQMI8658.hpp
+                                // Equv BMI160: https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi160-ds000.pdf
 
 // DoubleResetDetector (DRD) Konfiguration
 #define DOUBLERESETDETECTOR_DEBUG true
