@@ -9,12 +9,12 @@
 #define WS_QMI8658_VERSION_H
 
 #ifndef WS_QMI8658_VERSION
-  #define WS_QMI8658_VERSION            "Waveshare QMI8658 v0.1.5"
+  #define WS_QMI8658_VERSION            "Waveshare QMI8658 v0.1.6"
 
   #define WS_QMI8658_VERSION_MAJOR      0
   #define WS_QMI8658_VERSION_MINOR      1
-  #define WS_QMI8658_VERSION_PATCH      5
+  #define WS_QMI8658_VERSION_PATCH      6
 
-  #define WS_QMI8658_VERSION_INT        0001005
+  #define WS_QMI8658_VERSION_INT        0001006
 
 #endif // WS_QMI8658_VERSION_H

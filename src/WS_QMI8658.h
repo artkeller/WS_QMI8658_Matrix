@@ -9,7 +9,7 @@
 #define WS_QMI8658_H
 
 #include <Arduino.h>
-#include "WS_QMI8658_Version.h" // Version ausgelagert
+#include "WS_QMI8658_version.h" // Version ausgelagert
 #include <elapsedMillis.h>
 #include <Wire.h>
 #include <SensorLib.h>          // SensorLib: https://github.com/lewisxhe/SensorLib/blob/master/src/SensorLib.h
