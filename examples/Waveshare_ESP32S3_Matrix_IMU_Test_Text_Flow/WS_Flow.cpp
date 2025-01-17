@@ -42,13 +42,13 @@ const uint16_t colors[] = {
   Matrix.Color(255, 0, 0), Matrix.Color(0, 255, 0), Matrix.Color(0, 0, 255) };
 
 int getCharWidth(char c) {
-  if (c == 'i' || c == 'l' || c == '!' || c == '.') {
-    return 3;
+  //if (c == 'i' || c == 'l' || c == '!' || c == '.') {
+  //  return 3;
   // } else if (c == 'm' || c == 'w') {
   //   return 7;
-  } else {
+  //} else {
     return 5;
-  }
+  //}
 }
 int getStringWidth(const char* str) {
   int width = 0;
