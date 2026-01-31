@@ -1,5 +1,7 @@
 # WS_QMI8658_Matrix
 
+[![CRA Status](https://img.shields.io/badge/CRA-Exempt%20(pure%20OSS)-informational)](./CRA-EXEMPTION.md)
+
 The WS_QMI8658 library is used to easily integrate the QMI8658 IMU sensor into Arduino projects. It enables precise motion and position detection with calibration support, double reset detection and hysteresis logic to avoid unstable state changes.
 
 Functions include:
